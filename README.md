@@ -27,9 +27,12 @@ calendar use a ```📅.set( first_year, last_year )``` function to inizialize a 
 // let's get the calendar from 1997 to 2007
 📅.set( 1997, 2007 )
 
+console.log(console.log(`this is the calendar from ${📅.year} to  ${📅.endYear}` ); )
 console.log(📅.getCalendar())
 ```
 The output, if you are testing on a browser should be like this:
+
+![alt text](https://github.com/ActuallyNotaDev/ActuallyNotaDev/blob/main/Doc/OUTPUT-getCalendar.png)
 
 
 
