@@ -10,6 +10,7 @@ let's install the package first:
 The simplest way is to grab the raw js from https://github.com/ActuallyNotaDev/Calendar.js/blob/main/calendar.js,
 make a new js file, paste it.
 after that from your entry script:
+
 ```javascript
 import calendar from '<PATH>/calendar.js';
 
@@ -32,11 +33,26 @@ console.log(📅.getCalendar())
 ```
 The output, if you are testing on a browser should be like this:
 
-![alt text](https://github.com/ActuallyNotaDev/ActuallyNotaDev/blob/main/Doc/OUTPUTgetCalendar2.png)
+<img src="https://github.com/ActuallyNotaDev/ActuallyNotaDev/blob/main/Doc/OUTPUTgetCalendar2.png" width="600" height="400" />
 
-Now each object rappresent a year from the list with all his days also in the form of a list:
+Now each object ***rappresent a year*** from the list with ***all his days*** also in the form of a list:
 
-![alt text](https://github.com/ActuallyNotaDev/ActuallyNotaDev/blob/main/Doc/OUTPUTgetCalendar1.png)
+<img src="https://github.com/ActuallyNotaDev/ActuallyNotaDev/blob/main/Doc/OUTPUTgetCalendar1.png" width="580" height="250" /> 
+
+## Get a specific day
+
+At this point we can point to a certain position to ***get a specific day***:
+
+```javascript
+console.log(`The PlayStation is launched by Sony in Japan 🎮 : ` );
+📅.pointDay(12,3,1990)
+
+console.log(📅.getPointedDay());
+```
+Output:
+![](https://github.com/ActuallyNotaDev/ActuallyNotaDev/blob/main/OUTPUTdAY.png)
+
+
 
 
 
