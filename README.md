@@ -1,7 +1,6 @@
 # Calendar.js
 Calendar.js provide a fast way to work with dates when you don't wanna deal with hours, minute, second and so on.
-It means that Calendar.js comes in handy when you wanna work with something like a 'calendar based app' or maybe you need some date system for a browser.
-The output is really easy-to-use: once you had import the module, instantiate a calendar object, set a year range and you get a json with a ordered list containing all the days belonging to those years.
+It means that Calendar.js comes in handy when you wanna work with something like a 'calendar based app' or maybe you need some locally date system for a browser game.The Class is really easy-to-use: once you had import the module, instantiate a calendar object, set a year range and you get a json with a ordered list containing all the days belonging to those years.
 
 ---
 
