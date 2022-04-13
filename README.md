@@ -3,8 +3,10 @@ Calendar.js provide a fast way to work with dates when you don't wanna deal with
 It means that Calendar.js comes in handy when you wanna work with something like a 'calendar based app' or maybe you need some date system for a browser.
 The output is really easy-to-use: once you had import the module, instantiate a calendar object, set a year range and you get a json with a ordered list containing all the days belonging to those years.
 
+---
+
 ## Import
-let's install the package first:
+You have a couple of way to import the package:
 
 ### Copy the raw js  
 The simplest way is to grab the raw js from https://github.com/ActuallyNotaDev/Calendar.js/blob/main/calendar.js,
@@ -18,12 +20,14 @@ var 📅 = new calendar()
 ```
 ---
 
-// npm package will be avabile soon
+### Via npm
+
+> npm package will be avabile soon
 
 ---
 
 ## Usage
-calendar use a ```📅.set( first_year, last_year )``` function to inizialize a calendar that goes from one year(```first_year```) to another(```last_year```). Once done quik get your calendar.
+calendar use a ```📅.set( first_year, last_year )``` function to inizialize a calendar that goes from one year(```first_year```) to another(```last_year```). Once done you can quickly get your calendar.
 ```javascript
 // let's get the calendar from 1997 to 2007
 📅.set( 1997, 2007 )
@@ -35,9 +39,9 @@ The output, if you are testing on a browser should be like this:
 
 <img src="https://github.com/ActuallyNotaDev/ActuallyNotaDev/blob/main/Doc/OUTPUTgetCalendar2.png" width="600" height="400" />
 
-Now each object ***rappresent a year*** from the list with ***all his days*** also in the form of a list:
+Now each listed object ***rappresent a year*** with ***all his days*** also in the form of a list:
 
-<img src="https://github.com/ActuallyNotaDev/ActuallyNotaDev/blob/main/Doc/OUTPUTgetCalendar1.png" width="580" height="250" /> 
+<img src="https://github.com/ActuallyNotaDev/ActuallyNotaDev/blob/main/Doc/OUTPUTgetCalendar1.png" width="570" height="250" /> 
 
 ## Get a specific day
 
@@ -50,7 +54,30 @@ console.log(`The PlayStation is launched by Sony in Japan 🎮 : ` );
 console.log(📅.getPointedDay());
 ```
 Output:
+
 ![](https://github.com/ActuallyNotaDev/ActuallyNotaDev/blob/main/OUTPUTdAY.png)
+
+## browse between days
+
+Passing an ```Int``` the function below provide a more declarative way to move the pointer:
+
+```javascript
+console.log(📅.addDays(10)); 
+console.log(📅.subDays(3));
+
+```
+Output :
+
+![](https://github.com/ActuallyNotaDev/ActuallyNotaDev/blob/main/Doc/OUTPUToperationWithDay.png)
+
+---
+
+# RoadMap 🚀
+
+- [ ]  ***Add a getToday method***
+- [ ]  ***Add a getCurrentWeek method***
+- [ ]  ***Add a getPointedWeek***
+- [ ]  ***Add a addWeek and subWeek***
 
 
 
