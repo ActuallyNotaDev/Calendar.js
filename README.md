@@ -28,8 +28,8 @@ var 📅 = new calendar()
 ## Usage
 calendar use a ```📅.set( first_year, last_year )``` function to inizialize a calendar that goes from one year(```first_year```) to another(```last_year```). Once done you can quickly get your calendar.
 ```javascript
-// let's get the calendar from 1997 to 2007
-📅.set( 1997, 2007 )
+// let's get the calendar from 1987 to 1997
+📅.set( 1987, 1999 )
 
 console.log(console.log(`this is the calendar from 1987 to  1999` ); )
 console.log(📅.getCalendar())
