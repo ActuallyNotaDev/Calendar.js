@@ -36,11 +36,11 @@ console.log(📅.getCalendar())
 ```
 The output, if you are testing on a browser should be like this:
 
-<img src="https://github.com/ActuallyNotaDev/ActuallyNotaDev/blob/main/Doc/OUTPUTgetCalendar2.png" width="600" height="400" />
+![](https://github.com/ActuallyNotaDev/ActuallyNotaDev/blob/main/Doc/OUTPUTgetCalendar2.png)
 
 Now each listed object ***rappresent a year*** with ***all his days*** also in the form of a list:
 
-<img src="https://github.com/ActuallyNotaDev/ActuallyNotaDev/blob/main/Doc/OUTPUTgetCalendar1.png" width="570" height="250" /> 
+![](https://github.com/ActuallyNotaDev/ActuallyNotaDev/blob/main/Doc/OUTPUTgetCalendar1.png)
 
 ## Get a specific day
 
